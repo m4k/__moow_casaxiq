@@ -26,7 +26,7 @@
   define("URL_BASE", $base);
   define("DIR_HEADER","./includes/header/");
   define("DIR_BOBY","./includes/");
-  define("LOGO","casaXiq.png");
+  define("LOGO","logo.png");
 
   $iphone     = strpos($_SERVER['HTTP_USER_AGENT'],"iPhone");
   $ipad       = strpos($_SERVER['HTTP_USER_AGENT'],"iPad");
