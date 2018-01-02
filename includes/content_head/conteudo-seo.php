@@ -1,5 +1,5 @@
 <?php 
-
+    //Para o Honorio!!
     $texto_compartilhamento = "";
     $titulo_compartilhamento = "";
 
