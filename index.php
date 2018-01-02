@@ -5,5 +5,6 @@
 </head>
 <body>
 <?php include_once"./view/body.php";?>
+<?php include_once"./includes/footer.php";?>
 </body>
 </html>
