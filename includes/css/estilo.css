@@ -5,3 +5,9 @@
 * {
     font-family: 'Montserrat', sans-serif;
 }
+ul li{list-style: none;display: inline-block;}
+ul li a{padding: 15px 15px;background: #f1f1f1;display: block;width: 45px;text-align: center;height: 45px;border-radius: 50%;}
+ul li a:hover{background: #f1f1f1;text-decoration: none;}
+#copyright{
+	padding: 10px 2px;
+}

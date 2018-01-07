@@ -1,8 +1,16 @@
-<div>
-    <div class="container">
-        <h3>"BODY"</h3>
-        <br>
-        <a href="./old/" class="btn btn-primary">VERSÃO ANTIGA</a>
+
+<div class="block">
+    <div class="container" id="t1">
+    	
     </div>
 </div>
-
+<div class="block">
+	<div class="container" id="t2">
+    	
+    </div>
+</div>
+<div class="block">
+    <div class="container" id="t3">
+    	
+    </div>
+</div>

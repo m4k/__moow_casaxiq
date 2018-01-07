@@ -4,7 +4,7 @@
 ?>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="./includes/js/xxxxxxxxx.js"></script>
+<!--script src="./includes/js/xxxxxxxxx.js"></script-->
 <link rel="stylesheet" href="./includes/css/estilo.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -22,7 +22,7 @@
     $base = './';
   }else{
     $base = './';
-}
+  }
   define("URL_BASE", $base);
   define("DIR_HEADER","./includes/header/");
   define("DIR_BOBY","./includes/");
@@ -38,7 +38,7 @@
 ?> 
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+/*var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
 (function(){
 var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
 s1.async=true;
@@ -46,6 +46,6 @@ s1.src='https://embed.tawk.to/xxxxxxxxxxxx/default';
 s1.charset='UTF-8';
 s1.setAttribute('crossorigin','*');
 s0.parentNode.insertBefore(s1,s0);
-})();
+})();*/
 </script>
 <!--End of Tawk.to Script-->
