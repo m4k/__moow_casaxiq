@@ -5,9 +5,116 @@
 * {
     font-family: 'Montserrat', sans-serif;
 }
-ul li{list-style: none;display: inline-block;}
-ul li a{padding: 15px 15px;background: #f1f1f1;display: block;width: 45px;text-align: center;height: 45px;border-radius: 50%;}
-ul li a:hover{background: #f1f1f1;text-decoration: none;}
-#copyright{
-	padding: 10px 2px;
+#copyright{padding: 10px 2px;margin-top: 50px;}
+.social_net ul li{list-style: none;display: inline-block;}
+.social_net ul li a{padding: 15px 15px;background: #f1f1f1;display: block;width: 45px;text-align: center;height: 45px;border-radius: 50%;}
+.social_net ul li a:hover{text-decoration: none;}
+.social_net ul li a.f:hover {background: #475993;color: #f1f1f1;}
+.social_net ul li a.i:hover {background: #7923BC;color: #f1f1f1;}
+.social_net ul li a.in:hover {background: #0077B7;color: #f1f1f1;}
+.social_net ul li a.tw:hover {background: #76A9EA;color: #f1f1f1;}
+.social_net ul li a.w:hover {background: #7AD06D;color: #f1f1f1;}
+
+#t2 a{text-align: center;display: block;font-weight: 600;letter-spacing: .3px;}
+#t2 a:hover{text-decoration: none;}
+.blue{background: #485DA0;text-align: center;color: #f1f1f1; padding: 40px 5px;}
+#t2{text-align: center;padding: 40px 0;}
+#t2 .botao_cta_blue{background: #485DA0;padding: 14px 30px;display: inline-block;max-width: 280px;color: #f1f1f1;border-radius: 5px;}
+
+.links ul {list-style: none;margin: 0;padding: 0;}
+.links ul li{padding: 5px;text-align: left;}
+.links ul li a{color: #485DA0;}
+.links ul li a:hover{font-weight: 600;text-decoration: none;}
+
+#footer{padding: 40px 0;}
+.home:before{
+    content: "\f015";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+/*--adjust as necessary--*/
+    font-size: 14px;
+    margin-right: 7px;
+} 
+.cta{min-width: 260px!important;}
+.cta_form{text-align: center;padding: 20px 0!important;}
+.btn-default{border: 1px solid #f1f1f1!important;background: transparent!important;color: #f1f1f1!important;font-weight: 600!important;}
+.skils{text-align: center;padding: 20px 5px 60px 5px}
+.pay{text-align: center;padding: 60px 5px 40px 5px;}
+.pay ul li{display: inline-block;}
+.pay ul li img{max-width: 180px;padding: 20px;}
+.types{text-align: center;padding: 20px 5px 40px 5px;}
+.types ul{margin: 0;padding: 0;}
+.types ul li{display: inline-block;margin: 0;padding: 0;}
+.types ul li img{max-width: 220px;padding: 2px;}
+.redes-sociais p{margin-left: 40px;}
+.redes-sociais b{color: #485DA0;}
+
+.bloco3 h2{text-align: center;}
+.bloco3 p{text-align: center;}
+
+.cta1{border-top: 5px solid #FCD500;}
+.cta1 a{background: #FCD500;padding: 20px 30px;display: inline-block;max-width: 240px;margin-top: 30px;text-transform: uppercase;font-weight: 600;letter-spacing: .6px;color: #485DA0;border-radius: 5px;}
+.cta1 a:hover{text-decoration: none;}
+.cta1 h3,.cta1 p{text-align: left;}
+
+#t0{padding: 60px;}
+.o-que-eh{text-align: center;padding: 60px 5px;}
+
+.back1{
+    background-image: url('../../includes/img/p1/Artboard_Background_Site_piso.jpg');
+    background-attachment: fixed;
+    background-position: center bottom;
+    padding: 260px 5px;
 }
+.back1 h2{color: #f1f1f1;text-align: center;font-weight: 600;letter-spacing: 1.4px;text-shadow: 2px 2px 5px #444;}
+.back1 h3{color: #f1f1f1;text-align: center;font-weight: 400;letter-spacing: .4px;text-shadow: 2px 2px 5px #444;}
+.back1 p{color: #f1f1f1;text-align: center;font-weight: 600;letter-spacing: .8px;text-shadow: 2px 2px 5px #444;padding: 30px 5px 40px 5px;}
+.back1 .cta0{text-align: center;}
+.back1 .cta0 a{display: inline-block;background: #FCD500;padding: 20px 30px;border-radius: 5px;font-weight: 600;letter-spacing: .6px;color: #000;}
+.back1 .cta0 a:hover{text-decoration: none;}
+
+.back2{
+    background-image: url('../../includes/img/p1/Artboard_Background_Site_sofa.jpg');
+    background-attachment: fixed;
+    background-position: center bottom;
+    padding: 260px 5px;
+}
+.back2 p{color: #f1f1f1;text-align: center;font-weight: 600;letter-spacing: .4px;text-shadow: 2px 2px 5px #444;}
+.back2 img{max-width:200px;text-align:center;padding: 20px 5px;}
+/*Carrrosel*/
+/*reset*/
+/**{
+    margin: 0;
+    padding: 0;
+    list-style: none ;
+    outline: 0;
+}
+
+#content {
+	margin: 0 auto;
+	width: 650px;
+	height: 200px;
+}
+
+#carrossel {
+	float: left;
+	width: 630px;
+	overflow: hidden;
+	height: 150px;
+}
+
+#carrossel ul li {
+	width: 200px;
+	height: 150px;
+	float: left;
+	margin: 0 5px;
+}
+
+#menu-carrossel {
+	float: left;
+	clear: both;
+	width: 100%;
+	text-align: center;
+}*/

@@ -1,16 +1,6 @@
-
-<div class="block">
-    <div class="container" id="t1">
-    	
-    </div>
-</div>
-<div class="block">
-	<div class="container" id="t2">
-    	
-    </div>
-</div>
-<div class="block">
-    <div class="container" id="t3">
-    	
-    </div>
-</div>
+<?php
+    include_once"./view/content_body/bloco0.php";
+    include_once"./view/content_body/bloco1.php";
+    include_once"./view/content_body/bloco2.php";
+    include_once"./view/content_body/bloco3.php";
+?>
