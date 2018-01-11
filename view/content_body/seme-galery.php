@@ -9,7 +9,7 @@
               <div class="img"></div>
               <div class="text">
                 <div class="line title">
-                    <h3>taff atga ok</h3>
+                    <h3>PISO COLOR XIQ</h3>
                 </div>
                 <div class="line subtitle">
                     <p>
@@ -28,7 +28,7 @@
               <div class="img"></div>
               <div class="text">
                 <div class="line title">
-                    <h3>taff atga ok</h3>
+                    <h3>PISO PÉROLA XIQ</h3>
                 </div>
                 <div class="line subtitle">
                     <p>
@@ -47,7 +47,7 @@
               <div class="img"></div>
               <div class="text">
                 <div class="line title">
-                    <h3>taff atga ok</h3>
+                    <h3>PISO 3D XIQ</h3>
                 </div>
                 <div class="line subtitle">
                     <p>
@@ -66,7 +66,7 @@
               <div class="img"></div>
               <div class="text">
                 <div class="line title">
-                    <h3>taff atga ok</h3>
+                    <h3>PISO ART XIQ</h3>
                 </div>
                 <div class="line subtitle">
                     <p>
@@ -85,7 +85,7 @@
               <div class="img"></div>
               <div class="text">
                 <div class="line title">
-                    <h3>taff atga ok</h3>
+                    <h3>PISOS DE CIMENTO QUEIMADO</h3>
                 </div>
                 <div class="line subtitle">
                     <p>
