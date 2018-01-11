@@ -1,0 +1,1 @@
+<?php include_once"./view/content_body/bloco_x_0.php";?>

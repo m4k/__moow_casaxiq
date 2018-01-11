@@ -1,6 +1,6 @@
 <div class="back1">
     <div class="container">
-        <h2>PORCELANATO LIQUIDO</h2>  
+        <h2><b>PORCELANATO LIQUIDO</b></h2>  
         <h3>As aplicações são as mais diversas
 e os benefícios são ainda melhores</h3>
         <p>CONHEÇA O PISO QUE É TENDÊNCIA NO PAÍS TODO</p>

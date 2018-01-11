@@ -5,7 +5,7 @@
 	</head>
 	<body>
 		<?php include_once"./includes/menu.php";?>
-		<?php include_once"./view/body-contato.php";?>
+		<?php include_once"./view/body_contact.php";?>
 		<?php include_once"./includes/footer.php";?>
 	</body>
 </html>
