@@ -20,11 +20,6 @@
 </div>
 <div>
     <div class="content">
-        <div class="col-md-5">
-            
-        </div>
-        <div class="col-md-7">
-
-        </div>
+        <?php include_once"./includes/info_geral.php";?>
     </div>
 </div>
