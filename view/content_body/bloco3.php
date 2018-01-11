@@ -13,6 +13,7 @@
     <div class="block">
         <div class="container" id="t0">
             <h2>ONDE PODE SER COLOCADO?</h2>
+            <center><div class="dash"></div></center>
             <p>O piso de resina autonivelante é indicado para áreas aonde se deseja um acabamento 
                     perfeita-mente plano, com alto nível de qualidade e resistência. 
                     Por não possuir rejunte, o porcelanato líquido confere maior uniformidade ao ambiente, 
@@ -28,13 +29,14 @@
 </div>
 <div class="block">
     <div class="container types" id="t1">
-        <ul>
+        <!--ul>
             <li><img src="./includes/img/p1/Images_Type_Floor_PISO3DXIQ.jpg" alt=""></li>
             <li><img src="./includes/img/p1/Images_Type_Floor_PISOARTXIQ.jpg" alt=""></li> 
             <li><img src="./includes/img/p1/Images_Type_Floor_PISOCOLORXIQ.jpg" alt=""></li> 
             <li><img src="./includes/img/p1/Images_Type_Floor_PISOPEROLA XIQ.jpg" alt=""></li> 
             <li><img src="./includes/img/p1/Images_Type_Floor_PISOSDECIMENTOQUEIMADO.jpg" alt=""></li> 
-        </ul>
+        </ul-->
+        <?php include_once"./view/content_body/seme-galery.php";?>
     </div>
 </div>
 <div class="block">

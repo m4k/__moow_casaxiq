@@ -12,6 +12,7 @@
 <div class="block">
     <div class="container o-que-eh">
         <h2>VOCÊ SABE O QUE É PORCELANATO LÍQUIDO?</h2>
+        <center><div class="dash"></div></center>
         <p>Porcelanato Líquido é o termo utilizado comercialmente para a Resina Epóxi aplicada a reveti-
         mentos especiais. Também conhecido como Piso Epóxi ou RADD (revestimento de auto desem-
         penho decorativo), o porcelanato líquido é um revestimento sintético, um polímero de altíssima

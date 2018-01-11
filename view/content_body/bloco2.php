@@ -1,8 +1,8 @@
 <div class="back2">
-    <div class="container">
+    <div class="container-fluid">
         <div class="col-md-3 pull-right">
             <p>
-            <img src="./includes/img/p1/louro.png" alt="">
+            <img src="./includes/img/p1/louro.png" alt=""><br>
             Ambiente mais elogiado,
 eleito o piso mais impactante
 do evento pela opinião
