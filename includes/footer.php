@@ -5,9 +5,10 @@
         </div>
         <div class="col-md-4 links">
             <ul>
-                <li><a href="#" class="home">Início</a></li>
-                <li><a href="#">Galeria de fotos</a></li>
-                <li><a href="#">Contatos</a></li>
+                <li><a href="<?php echo URL_BASE; ?>" class="home">Início</a></li>
+                <li><a href="<?php echo URL_BASE; ?>/curso-triplo-x.php">Curso <b>Triplo</b> <img src="./includes/img/curso.png" alt="" style="max-width: 60px;margin-top:-3px;"></a></li>
+                <li><a href="<?php echo URL_BASE; ?>/galeria.php">Galeria de fotos</a></li>
+                <li><a href="<?php echo URL_BASE; ?>/contato.php">Contatos</a></li>
             </ul>
         </div>
         <div class="col-md-4 redes-sociais">
