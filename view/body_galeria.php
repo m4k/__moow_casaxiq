@@ -1,0 +1,1 @@
+<?php include_once"./view/content_galery/index.php";?>
