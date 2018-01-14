@@ -30,7 +30,7 @@
   define("URL_BASE", $base);
   define("DIR_HEADER","./includes/header/");
   define("DIR_BOBY","./includes/");
-  define("LOGO","logo.png");
+  define("LOGO","logo_nova_casaxiq.png");
 
   /* Social */
   $social = array(

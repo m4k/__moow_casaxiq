@@ -36,9 +36,6 @@
                             $(this).removeClass(animacaotipo);
                         }).show();
                     }
-                    /*else {
-                      alert("Teve algum erro, fudeuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu..!");
-                    }*/
                 },
                 error: function(data) {
                     $('.load2').hide();
@@ -52,46 +49,50 @@
         }
     </script>
 
-<div class="row" style="background-color: rgba(0,0,0,.1);">
+<div style="background-color: rgba(0,0,0,.1);">
 	<div class="container" id="contato_page">
 		<div class="col-md-4" style="padding: 20px 0;">
 			<div style="padding: 45px 15px; background-color: #f1f1f1;">
-		        <h4 style="font-family: 'Nixie One', cursive; font-weight: 600;">Entre em contato comigo!</h4>
+		        
+                <h4 style="font-family: 'Nixie One', cursive; font-weight: 600;">Entre em contato comigo!</h4>
 		        <i class="fa fa-window-minimize" style="color: #FFC60B; margin-bottom: 10px;"></i>
 		        
 		        <form class="" action="" method="post" class="form-control" id="form_contato" action="" onsubmit="gravarContato(); return false;">
-                  <span style="color: #3d3d3d">nome</span>
-		          <input type="text" name="nome" placeholder="Nome" class="form-control">
-		          <span style="color: #3d3d3d">e-mail</span>
-                  <input type="text" name="email" placeholder="E-mail" class="form-control">
-		          <span style="color: #3d3d3d">telefone</span>
-                  <input type="text" name="telefone" placeholder="Telefone" class="form-control telefone">
-		          <textarea name="msg" rows="7" cols="80" class="form-control" placeholder="Escreva sua mensagem"></textarea><br>
-		          <button type="submit" name="comecar" class="btn btn-default" style="text-transform: uppercase; letter-spacing: 1.2; padding: 12px; background: #444!important; color: #FFF; box-shadow: 2px 2px 15px #666; border: 0;">enviar <i class="fa fa-paper-plane-o"></i></button>
-		          <!--glyphicon glyphicon-ok-->
+                    <span style="color: #3d3d3d">nome</span>
+                    <input type="text" name="nome" placeholder="Nome" class="form-control">
+                    <span style="color: #3d3d3d">e-mail</span>
+                    <input type="text" name="email" placeholder="E-mail" class="form-control">
+                    <span style="color: #3d3d3d">telefone</span>
+                    <input type="text" name="telefone" placeholder="Telefone" class="form-control telefone">
+                    <textarea name="msg" rows="7" cols="80" class="form-control" placeholder="Escreva sua mensagem"></textarea><br>
+                    <button type="submit" name="comecar" class="btn btn-default" style="text-transform: uppercase; letter-spacing: 1.2; padding: 12px; background: #444!important; color: #FFF; box-shadow: 2px 2px 15px #666; border: 0;">enviar <i class="fa fa-paper-plane-o"></i></button>
+                    <!--glyphicon glyphicon-ok-->
 		        </form>
 		        <div class="load2" style="display: none;" align="center">
-		          <br>
-		          <p>Enviando a mensagem...</p>
-		          <br>
-		          <img src="../images/load.gif" alt="Loading">
+                    <br>
+                    <p>Enviando a mensagem...</p>
+                    <br>
+                    <img src="../images/load.gif" alt="Loading">
 		        </div>
 		        <div class="success-message2 w-form-done" align="center">
-		          <img src="../images/luis2.png" alt="Luis Outi Ok"><br><br>
-		          <p>Obrigado por fazer parte do meu grupo.</p><br>
-		          <i class="fa fa-check" aria-hidden="true" style="color: #2DCC70; font-size:26px;"></i>
+                    <img src="../images/luis2.png" alt="Luis Outi Ok"><br><br>
+                    <p>Obrigado por fazer parte do meu grupo.</p><br>
+                    <i class="fa fa-check" aria-hidden="true" style="color: #2DCC70; font-size:26px;"></i>
 		        </div>
 		        <div class="error-message2 w-form-fail">
-		          <p>Oops! Algo deu errado, preencha todos os campos!</p>
+		            <p>Oops! Algo deu errado, preencha todos os campos!</p>
 		        </div>
 		        <div class="error-connect2 w-form-fail">
-		          <p>Oops! Algo deu errado, verifique sua conexão ao DB!</p>
+		            <p>Oops! Algo deu errado, verifique sua conexão ao DB!</p>
 		        </div>
 		        <div class="error-send2 w-form-fail">
-		          <p>Não foi possível enviar o e-mail!</p>
+		            <p>Não foi possível enviar o e-mail!</p>
 		        </div>
 	        </div>
       	</div>
+        <?php 
+            /* MAPS */ 
+        ?>  
 		<div class="col-md-8" id="map" style="height:600px; padding: 20px 0;">
 			<iframe width="100%" height="100%" frameborder="0" style="border:0"
 src="https://www.google.com/maps/embed/v1/place?q=Av.%20Ayrton%20Senna%20da%20Silva%2C%20200%20-%20301%20-%20Gleba%20Fazenda%20Palhano%2C%20Londrina%20-%20PR&key=AIzaSyCAoFi4CjDnvfQhS9LJfBt-htTJwkZuVm8" allowfullscreen></iframe>

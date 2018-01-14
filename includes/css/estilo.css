@@ -106,13 +106,15 @@ h1,h2,h3,h4,h5,h6 {
 .back1_c .cta0 a:hover{text-decoration: none;}
 
 /*curso X*/
-.back1_x{
-    background-image: url('../../includes/img/p3/Artboard_Background_Site_XXX.png');
-    background-attachment: fixed;
-    background-position: center bottom;
-    /**/
-    background-repeat: no-repeat;
-    background-size: cover;
+@media screen and (min-width:991px){
+    .back1_x{
+        padding: 125px 5px 40px 5px;
+    }
+}
+@media screen and (max-width:990px){
+    .back1_x{
+        padding: 30px 5px;
+    }
 }
 .back1_x h2{color: #f1f1f1;text-align: center;font-weight: 600;letter-spacing: 1.4px;text-shadow: 2px 2px 5px #444;}
 .back1_x h3{color: #f1f1f1;text-align: center;font-weight: 400;letter-spacing: .4px;text-shadow: 2px 2px 5px #444;}
