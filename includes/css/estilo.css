@@ -15,12 +15,13 @@ h1,h2,h3,h4,h5,h6 {
 *{font-family: 'Montserrat', sans-serif;}
 #copyright{padding: 10px 2px;margin-top: 50px;}
 .social_net ul li{list-style: none;display: inline-block;}
-.social_net ul li a{padding: 15px 15px;background: #f1f1f1;display: block;width: 45px;text-align: center;height: 45px;border-radius: 50%;}
+.social_net ul li a{font-size: 20px!important;padding: 12px;background: #f1f1f1;display: block;width: 45px;text-align: center;height: 45px;border-radius: 50%;}
 .social_net ul li a:hover{text-decoration: none;}
 .social_net ul li a.f:hover {background: #475993;color: #f1f1f1;}
 .social_net ul li a.i:hover {background: #7923BC;color: #f1f1f1;}
 .social_net ul li a.in:hover {background: #0077B7;color: #f1f1f1;}
 .social_net ul li a.tw:hover {background: #76A9EA;color: #f1f1f1;}
+/*.social_net ul li a.w{color!important;}*/
 .social_net ul li a.w:hover {background: #7AD06D;color: #f1f1f1;}
 
 #t2 a{text-align: center;display: block;font-weight: 600;letter-spacing: .3px;}
@@ -35,6 +36,7 @@ h1,h2,h3,h4,h5,h6 {
 .links ul li a:hover{font-weight: 600;text-decoration: none;}
 
 #footer{padding: 40px 0;}
+#footer img{width: 240px;}
 .home:before{
     content: "\f015";
     font-family: FontAwesome;
@@ -265,10 +267,11 @@ h1,h2,h3,h4,h5,h6 {
 }
 .navbar-default{background-color:transparent!important;border-color:transparent!important;}
 @media screen and (min-width:769px) and (max-width:990px){ol li{padding:0px 10px;}
-#menu{text-align:left;border-bottom:1px solid #999;box-shadow:1px 1px 2px #999;padding:20px 0;}
+    #menu{text-align:left;border-bottom:1px solid #999;box-shadow:1px 1px 2px #999;padding:20px 0;}
 }
 @media screen and (min-width:991px){ol li{padding:0px 10px;}
-#menu{text-align:left;border-bottom:1px solid #999;box-shadow:1px 1px 2px #999;padding:20px 0 2px 0;position:fixed;left:0;right:0;z-index:20;background:#fff;}
+    #menu{text-align:left;border-bottom:1px solid #999;box-shadow:1px 1px 2px #999;padding:20px 0 2px 0;position:fixed;left:0;right:0;z-index:20;background:#fff;}
+    #menu .navbar-brand img{ width: 160px; }
 }
 /*Carrrosel*/
 /*reset*/

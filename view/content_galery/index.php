@@ -1,64 +1,121 @@
-<!DOCTYPE HTML>
-<!--
-	Radius by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+        <link rel="stylesheet" type="text/css" href="./view/content_galery/css/style.css"/>
+		<script src="./view/content_galery/js/modernizr.custom.70736.js"></script>
+		<noscript><link rel="stylesheet" type="text/css" href="./view/content_galery/css/noJS.css"/></noscript>
+    </head>
+    <body>
+        <div class="container">
 		
-		<script src="./view/content_galery/assets/js/jquery.min.js"></script>
-		<script src="./view/content_galery/assets/js/main.js"></script>
-		<script src="./view/content_galery/assets/js/util.js"></script>
-		<script src="./view/content_galery/assets/js/skel.min.js"></script>
-		<link rel="stylesheet" href="./view/content_galery/assets/css/main.css">
-		<?php if (isset($_GET['piso']) and $_GET['piso'] != ''):?>
-		<?php include_once"./view/content_galery/detail.php";?>
-		<?php else:?>
-		<!-- Header -->
-			<!--header id="header">
-				<div class="inner">
-					<div class="content">
-						<h1>Casa Xiq</h1>
-						<h2>Galeria de nossos melhores trabalhos.</h2>
-						<a href="#" class="button big alt"><span>Conheça</span></a>
+			
+			
+			<div class="main">
+				<header class="clearfix">
+				
+					<h1>Gamma Gallery<span>A responsive image gallery experiment</span></h1>
+
+					<div class="support-note">
+						<span class="note-ie">Sorry, only modern browsers.</span>
 					</div>
-					<a href="#" class="button hidden"><span>Vamos lá</span></a>
-				</div>
-			</header-->
+					
+				</header>
+				<?php 
+					define("DIR_FOTOS","./includes/img/galery/pic"); 
+					$titu = '';
+				?>
+				<div class="gamma-container gamma-loading" id="gamma-container">
 
-		<!-- Main -->
-			<div id="main">
-				<div class="inner">
-					<div class="columns">
-
+					<ul class="gamma-gallery">
 						<?php for ($i=1; $i < 16 ; $i++) { 
-							echo'<div class="image fit">
-								<a href="#piso='.$i.'"><img src="./includes/img/galery/pic'.$i.'.jpg" alt="" /></a>
-							</div>';
+							echo'<li>
+								<div data-alt="img03" data-description="<h3>'.$titu.$i.'</h3>" data-max-width="1800" data-max-height="1350">
+									<div data-src="'.DIR_FOTOS.$i.'.jpg" data-min-width="1300"></div>
+									<div data-src="'.DIR_FOTOS.$i.'.jpg" data-min-width="1000"></div>
+									<div data-src="'.DIR_FOTOS.$i.'.jpg" data-min-width="700"></div>
+									<div data-src="'.DIR_FOTOS.$i.'.jpg" data-min-width="300"></div>
+									<div data-src="'.DIR_FOTOS.$i.'.jpg" data-min-width="200"></div>
+									<div data-src="'.DIR_FOTOS.$i.'.jpg" data-min-width="140"></div>
+									<div data-src="'.DIR_FOTOS.$i.'.jpg"></div>
+									<noscript>
+										<img src="'.DIR_FOTOS.$i.'.jpg" alt="Galeria"/>
+									</noscript>
+								</div>
+							</li>';
 						}?>
+						
+						
+					</ul>
 
-					</div>
+					<div class="gamma-overlay"></div>
+
 				</div>
+
 			</div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script src="./view/content_galery/js/jquery.masonry.min.js"></script>
+		<script src="./view/content_galery/js/jquery.history.js"></script>
+		<script src="./view/content_galery/js/js-url.min.js"></script>
+		<script src="./view/content_galery/js/jquerypp.custom.js"></script>
+		<script src="./view/content_galery/js/gamma.js"></script>
+		<script type="text/javascript">
+			
+			$(function() {
 
-		<!-- Footer -->
-			<!--footer id="footer">
-				<a href="#" class="info fa fa-info-circle"><span>About</span></a>
-				<div class="inner">
-					<div class="content">
-						<h3>Vestibulum hendrerit tortor id gravida</h3>
-						<p>In tempor porttitor nisl non elementum. Nulla ipsum ipsum, feugiat vitae vehicula vitae, imperdiet sed risus. Fusce sed dictum neque, id auctor felis. Praesent luctus sagittis viverra. Nulla erat nibh, fermentum quis enim ac, ultrices euismod augue. Proin ligula nibh, pretium at enim eget, tempor feugiat nulla.</p>
-					</div>
-					<div class="copyright">
-						<h3>Follow me</h3>
-						<ul class="icons">
-							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-						</ul>
-						&copy; Untitled. Design: <a href="https://templated.co">TEMPLATED</a>. Images: <a href="https://unsplash.com/">Unsplash</a>.
-					</div>
-				</div>
-			</footer-->
+				var GammaSettings = {
+						// order is important!
+						viewport : [ {
+							width : 1200,
+							columns : 5
+						}, {
+							width : 900,
+							columns : 4
+						}, {
+							width : 500,
+							columns : 3
+						}, { 
+							width : 320,
+							columns : 2
+						}, { 
+							width : 0,
+							columns : 2
+						} ]
+				};
 
-		<?php endif;?>
+				Gamma.init( GammaSettings, fncallback );
+
+
+				// Example how to add more items (just a dummy):
+
+				var page = 0,
+					items = ['<li><div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350"><div data-src="images/xxxlarge/3.jpg" data-min-width="1300"></div><div data-src="images/xxlarge/3.jpg" data-min-width="1000"></div><div data-src="images/xlarge/3.jpg" data-min-width="700"></div><div data-src="images/large/3.jpg" data-min-width="300"></div><div data-src="images/medium/3.jpg" data-min-width="200"></div><div data-src="images/small/3.jpg" data-min-width="140"></div><div data-src="images/xsmall/3.jpg"></div><noscript><img src="images/xsmall/3.jpg" alt="img03"/></noscript></div></li><li><div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350"><div data-src="images/xxxlarge/3.jpg" data-min-width="1300"></div><div data-src="images/xxlarge/3.jpg" data-min-width="1000"></div><div data-src="images/xlarge/3.jpg" data-min-width="700"></div><div data-src="images/large/3.jpg" data-min-width="300"></div><div data-src="images/medium/3.jpg" data-min-width="200"></div><div data-src="images/small/3.jpg" data-min-width="140"></div><div data-src="images/xsmall/3.jpg"></div><noscript><img src="images/xsmall/3.jpg" alt="img03"/></noscript></div></li><li><div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350"><div data-src="images/xxxlarge/3.jpg" data-min-width="1300"></div><div data-src="images/xxlarge/3.jpg" data-min-width="1000"></div><div data-src="images/xlarge/3.jpg" data-min-width="700"></div><div data-src="images/large/3.jpg" data-min-width="300"></div><div data-src="images/medium/3.jpg" data-min-width="200"></div><div data-src="images/small/3.jpg" data-min-width="140"></div><div data-src="images/xsmall/3.jpg"></div><noscript><img src="images/xsmall/3.jpg" alt="img03"/></noscript></div></li><li><div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350"><div data-src="images/xxxlarge/3.jpg" data-min-width="1300"></div><div data-src="images/xxlarge/3.jpg" data-min-width="1000"></div><div data-src="images/xlarge/3.jpg" data-min-width="700"></div><div data-src="images/large/3.jpg" data-min-width="300"></div><div data-src="images/medium/3.jpg" data-min-width="200"></div><div data-src="images/small/3.jpg" data-min-width="140"></div><div data-src="images/xsmall/3.jpg"></div><noscript><img src="images/xsmall/3.jpg" alt="img03"/></noscript></div></li><li><div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350"><div data-src="images/xxxlarge/3.jpg" data-min-width="1300"></div><div data-src="images/xxlarge/3.jpg" data-min-width="1000"></div><div data-src="images/xlarge/3.jpg" data-min-width="700"></div><div data-src="images/large/3.jpg" data-min-width="300"></div><div data-src="images/medium/3.jpg" data-min-width="200"></div><div data-src="images/small/3.jpg" data-min-width="140"></div><div data-src="images/xsmall/3.jpg"></div><noscript><img src="images/xsmall/3.jpg" alt="img03"/></noscript></div></li>']
+
+				function fncallback() {
+
+					$( '#loadmore' ).show().on( 'click', function() {
+
+						++page;
+						var newitems = items[page-1]
+						if( page <= 1 ) {
+							
+							Gamma.add( $( newitems ) );
+
+						}
+						if( page === 1 ) {
+
+							$( this ).remove();
+
+						}
+
+					} );
+
+				}
+
+			});
+
+		</script>	
+	</body>
+</html>

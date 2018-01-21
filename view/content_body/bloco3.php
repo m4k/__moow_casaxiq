@@ -46,14 +46,18 @@
 </div>
 <div class="block">
     <div class="container pay" id="t3">
+        
         <ul>
+            <!--marquee  behavior="scroll" direction="left"-->
             <li><img src="./includes/img/p1/Small_size_image_transparent_Visa.png" alt=""></li>
             <li><img src="./includes/img/p1/Small_size_image_transparent_mastercard.png" alt=""></li>
             <li><img src="./includes/img/p1/Small_size_image_transparent_Elo.png" alt=""></li>
             <li><img src="./includes/img/p1/Small_size_image_transparent_Hipercard.png" alt=""></li>
             <li><img src="./includes/img/p1/Small_size_image_transparent_PicPay.png" alt=""></li>
             <li><img src="./includes/img/p1/Small_size_image_transparent_Pagseguro.png" alt=""></li>
+            <!--/marquee-->
         </ul>
+        
     </div>
 </div>
 <div class="blue">

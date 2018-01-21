@@ -17,7 +17,7 @@
 		    <!-- Collect the nav links, forms, and other content for toggling -->
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		      <ul class="nav navbar-nav navbar-right">
-		        <li><a class="active1" href="<?php echo URL_BASE; ?>">Página inicial <span class="sr-only">(current)</span></a></li><!--class="active"-->
+		        <li><a class="active1 home" href="<?php echo URL_BASE; ?>">Página inicial <span class="sr-only">(current)</span></a></li><!--class="active"-->
 		        <li><a href="<?php echo URL_BASE; ?>/curso-triplo-x.php">Curso <b>Triplo</b> <img src="./includes/img/curso.png" alt="" style="max-width: 60px;margin-top:-3px;"></a></li>
 				<li><a href="<?php echo URL_BASE; ?>/galeria.php">Galeria</a>
 		        <li class="destaq"><a href="<?php echo URL_BASE; ?>/contato.php">Contato</a></li>
