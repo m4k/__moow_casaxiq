@@ -2,11 +2,9 @@
     <div class="pelicula">
         <div class="container">
             <h2><b>PORCELANATO LIQUIDO</b></h2>  
-            <h3>As aplicações são as mais diversas
-    e os benefícios são ainda melhores</h3>
-            <p>CONHEÇA O PISO QUE É TENDÊNCIA NO PAÍS TODO</p>
+            <h3>Confira nossa galeria de <b>fotos</b>.</h3><br>
             <div class="cta0">
-                <a href="#">CONHEÇA AGORA</a>
+                <a href="#fotos">VEJA AGORA</a>
             </div>
         </div>
     </div>

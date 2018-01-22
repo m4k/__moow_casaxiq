@@ -8,7 +8,7 @@
                 <div class="col-md-6">
                     <ul>
                         <li><a href="<?php echo URL_BASE; ?>" class="home">Início</a></li>
-                        <li><a href="<?php echo URL_BASE; ?>/curso-triplo-x.php">Curso <b>Triplo</b> <img src="./includes/img/curso.png" alt="" style="max-width: 60px;margin-top:-3px;"></a></li>
+                        <li><a href="<?php echo URL_BASE; ?>/curso-triplo-x.php">Curso <b>Triplo X</b></a></li>
                         <li><a href="<?php echo URL_BASE; ?>/galeria.php">Galeria de fotos</a></li>
                     </ul>
                 </div>

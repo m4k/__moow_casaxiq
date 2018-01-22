@@ -8,14 +8,14 @@
 		<noscript><link rel="stylesheet" type="text/css" href="./view/content_galery/css/noJS.css"/></noscript>
     </head>
     <body>
-        <div class="gallery_ok container">
+        <div class="gallery_ok container" id="fotos">
 		
 			
 			
 			<div class="main">
 				<header class="clearfix">
 				
-					<h1>Gamma Gallery<span>A responsive image gallery experiment</span></h1>
+					<h1>Galeria<span>Fotos de nossos trabalhos</span></h1>
 
 					<div class="support-note">
 						<span class="note-ie">Sorry, only modern browsers.</span>
