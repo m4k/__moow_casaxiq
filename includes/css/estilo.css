@@ -27,6 +27,7 @@ h1,h2,h3,h4,h5,h6 {
 #t2 a{text-align: center;display: block;font-weight: 600;letter-spacing: .3px;}
 #t2 a:hover{text-decoration: none;}
 .blue{background: #485DA0;text-align: center;color: #f1f1f1; padding: 40px 5px;}
+.red_x{background: #DA251D;text-align: center;color: #f1f1f1; padding: 40px 5px;}
 #t2{text-align: center;padding: 40px 0;}
 #t2 .botao_cta_blue{background: #485DA0;padding: 14px 30px;display: inline-block;max-width: 280px;color: #f1f1f1;border-radius: 5px;}
 
@@ -47,6 +48,16 @@ h1,h2,h3,h4,h5,h6 {
     font-size: 14px;
     margin-right: 7px;
 } 
+.mail:after{
+    content: "\f0e0";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+/*--adjust as necessary--*/
+    font-size: 14px;
+    margin-right: 7px;
+}
 .cta{min-width: 260px!important;}
 .cta_form{text-align: center;padding: 20px 0!important;}
 .btn-default{border: 1px solid #f1f1f1!important;background: transparent!important;color: #f1f1f1!important;font-weight: 600!important;}
@@ -65,8 +76,11 @@ h1,h2,h3,h4,h5,h6 {
 .bloco3 p{text-align: center;}
 
 .cta1{border-top: 5px solid #FCD500;}
+.cta_x{border-top: 5px solid #777;}
 .cta1 a{background: #FCD500;padding: 20px 30px;display: inline-block;max-width: 240px;margin-top: 30px;text-transform: uppercase;font-weight: 600;letter-spacing: .6px;color: #485DA0;border-radius: 5px;}
 .cta1 a:hover{text-decoration: none;}
+.cta_x a{background: transparent;padding: 20px 30px;display: inline-block;max-width: 240px;margin-top: 30px;text-transform: uppercase;font-weight: 600;letter-spacing: .6px;color: #fff;border-radius: 5px;border: 2px solid #fff;}
+.cta_x a:hover{text-decoration: none;}
 .cta1 h3,.cta1 p{text-align: left;}
 
 #t0{padding: 60px;}
@@ -108,10 +122,30 @@ h1,h2,h3,h4,h5,h6 {
 .back1_c .cta0 a:hover{text-decoration: none;}
 
 /*curso X*/
+#facilities{ padding: 40px 2px; }
+#facilities .marginbot-50{ padding: 5px 2px 20px 2px; }
+.form-inline{ padding: 30px 2px 10px 2px; }
 @media screen and (min-width:991px){
     .back1_x{
-        padding: 125px 5px 40px 5px;
+        padding: 140px 5px 60px 5px;
     }
+    .back1_x h4{
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 26px;
+    }
+    .back1_x h2{
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 48px!important;
+        text-shadow: none!important;
+        color: #000!important;
+    }
+    .back1_x h2 b{ font-weight: 900; }
+    .back1_x h2 b, .back1_x h4 b{color:#DA261D!important;}
+    .back1_x img{ max-width: 800px; }
+    .back1_x p{ text-shadow: none!important;color: #333!important;text-transform: uppercase; }
+    .back1_x a{ text-shadow: none!important;color: #fff!important;background: #222;padding: 18px 20px;text-transform: uppercase;font-weight: 500;letter-spacing: .9px;border-radius:5px; }
 }
 @media screen and (max-width:990px){
     .back1_x{
@@ -266,12 +300,20 @@ h1,h2,h3,h4,h5,h6 {
     width: 100%;
 }
 .navbar-default{background-color:transparent!important;border-color:transparent!important;}
+@media screen and (max-width:768px){
+    #menu .navbar-brand img{ width: 110px!important;margin-top: 10px; }
+    .back1{ padding: 20px 2px 40px 2px!important; }
+}
 @media screen and (min-width:769px) and (max-width:990px){ol li{padding:0px 10px;}
     #menu{text-align:left;border-bottom:1px solid #999;box-shadow:1px 1px 2px #999;padding:20px 0;}
 }
 @media screen and (min-width:991px){ol li{padding:0px 10px;}
     #menu{text-align:left;border-bottom:1px solid #999;box-shadow:1px 1px 2px #999;padding:20px 0 2px 0;position:fixed;left:0;right:0;z-index:20;background:#fff;}
     #menu .navbar-brand img{ width: 160px; }
+    #menu .container {
+        width: 100%;
+        position: relative;
+    }
 }
 /*Carrrosel*/
 /*reset*/

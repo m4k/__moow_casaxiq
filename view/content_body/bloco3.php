@@ -12,33 +12,90 @@
 <div class="bloco3">
     <div class="block">
         <div class="container" id="t0">
-            <h2>ONDE PODE SER COLOCADO?</h2>
+            <h2>ONDE PODE SER APLICADO?</h2>
             <center><div class="dash"></div></center>
-            <p>O piso de resina autonivelante é indicado para áreas aonde se deseja um acabamento 
-                    perfeita-mente plano, com alto nível de qualidade e resistência. 
-                    Por não possuir rejunte, o porcelanato líquido confere maior uniformidade ao ambiente, 
-                    e pode ser aplicado direto no contra-piso, ar-dósias, pisos cerâmicos, 
-                    porcelanatos etc... E SEM QUEBRA QUEBRA.</p>
-        </div>
-    </div>
-    <div>
-        <div class="container">
-            <h2>GALERIA DE FOTOS</h2>
+            <p>
+            O piso de resina autonivelante é indicado para áreas onde se deseja um acabamento perfeitamente plano, com alto nível de qualidade e resistência. Por não possuir rejunte, o porcelanato líquido confere maior uniformidade ao ambiente, e pode ser aplicado direto no contra-piso, ardósias, pisos cerâmicos, porcelanatos etc, e SEM QUEBRA QUEBRA.
+            </p>
         </div>
     </div>
 </div>
-<div class="block">
-    <div class="container types" id="t1">
-        <!--ul>
-            <li><img src="./includes/img/p1/Images_Type_Floor_PISO3DXIQ.jpg" alt=""></li>
-            <li><img src="./includes/img/p1/Images_Type_Floor_PISOARTXIQ.jpg" alt=""></li> 
-            <li><img src="./includes/img/p1/Images_Type_Floor_PISOCOLORXIQ.jpg" alt=""></li> 
-            <li><img src="./includes/img/p1/Images_Type_Floor_PISOPEROLA XIQ.jpg" alt=""></li> 
-            <li><img src="./includes/img/p1/Images_Type_Floor_PISOSDECIMENTOQUEIMADO.jpg" alt=""></li> 
-        </ul-->
-        <?php include_once"./view/content_body/seme-galery.php";?>
+<?php //include_once"./view/content_body/seme-galery.php";?>
+
+<section id="facilities" class="home-section paddingbot-60" style="background: #f1f1f1;">
+    <div class="container marginbot-50">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="wow fadeInDown" data-wow-delay="0.1s">
+                    <div class="section-heading text-center">
+                        <h2 class="h-bold">TIPOS DE <b>PISOS</b></h2><br>
+                        <p>Opções de <b>Beleza e Tendências!</b><br><br>
+                        <p>
+                        Fomos os Pioneiros no Brasil a estar presentes no meio de um Evento de Arquitetura, que ocorreu no Casa Shopping Barra da Tijuca, o Morar Mais por Menos, onde expusemos 5 ambientes, todos em Porcelanato Líquido e Cimento Queimado. Portanto estamos lado a lado com as novas tendências de piso decorativo para o seu ambiente, onde o Porcelanato Líquido podendo ter um acabamento de ALTO BRILHO ou FOSCO, atende a todos os gostos e projetos. O efeito final é bastante leve e sofisticado, sem contar com o fato de que a ausência de emendas evita o acúmulo de sujeiras e fungos, sendo incrivelmente fácil de limpar. Este Piso é a mais nova tendência da Construção Civil, para todos os gostos.
+                        </p>
+                    </div>
+                </div>
+                <div class="divider-short"></div>
+            </div>
+        </div>
     </div>
-</div>
+
+    <?php
+        $testo = [
+            '1' => '<h3>Piso Color Xiq</h3>
+            Pisos Lisos feito em resina epóxi, com uma única cor, altamente brilhoso, ou FOSCO, totalmente monolítico (sem marcas de rejunte ou emendas), deixando a aparência de seu ambiente muito mais bonito e higiênico. Muito fácil a limpeza, basta um pano com água e ele fica novo de novo. 
+            ',
+            '2' => '<h3>Piso Revest Xiq</h3>
+            É um Revestimento Especial, podendo ser a base Poliuretana ou Epóxi, para áreas internas ou externas, com um custo superacessível, que cabe no seu bolso sem perder o Requinte e o Bom Gosto. Ele pode ser de Cores Únicas Alto Brilho ou Fosco, e Metalizado. Na decoração muitos ainda não sabem que contando com soluções em Revestimento para suas residências, conseguem várias vantagens. Como preço mais acessível, ambientes monolíticos, facilidades para limpeza como NÃO acúmulo de sujeiras e fungos, variedades de composição com o ambiente e resistência ótima para uma grande durabilidade
+            ',
+            '3' => '<h3>Piso Pérola Xiq</h3>
+            Pisos Pérola, tendência vinda da Grécia, com requinte e sutileza, seu preenchimento em qualquer ambiente é neutro, porém indispensável para aqueles que não abrem mão da beleza refinada.
+            ',
+            '4' => '<h3>Piso 3DX</h3>
+            Pisos 3D, aqui a arte é livre ao extremo, e pode se expressar tanto com figuras, como imagens, inteligência e profundidade, uma infinidade de possibilidades. No Porcelanato Líquido 3D não há barreiras, deixe sua imaginação fluir!
+            ',
+            '5' => '<h3>Piso Art Xiq</h3>
+            Pisos Mescla Artística, são revestimentos mais artísticos e rebuscados, demandam mais cuidado, foco, atenção e talento. São pisos verdadeiramente ÚNICOS, que não se repetem, tornando cada experiência uma assinatura no mundo.
+            ',
+            '6' => '<h3>Piso Superior Xiq</h3>
+            Seguramente o Piso mais resistente e charmoso do Brasil, certamente é o que indicamos para que seja sua escolha, pela resistência e beleza que entrega.
+            ',
+            '7' => '<h3>Piso Cimento Queimado Xiq</h3>
+            Pisos de Cimento Queimado, são pisos que favorecem mais o bolso, mais baratos e não perdendo o requinte virou uma febre no ramo de revestimentos.
+            ',
+            '8' => '<h3>Piso INDUSTRIAL +</h3>
+            É um tipo de Revestimento/Pintura especial com Tintas de Alta Qualidade, Cobertura, Durabilidade e Resistência. Geralmente em grandes áreas, onde se exige Pinturas Industriais e especiais, que hoje em dia são muito concorridas, ganha quem oferece o melhor custo com uma entrega de qualidade. Por isso o equipamento de pintura Airless é fundamental, com capacidade de entrega de 8L/minuto, chega a pintar até 2.000m²/dia, com acabamento impecável. Piso feito de variadas formas em que uma delas atenderá a necessidade do cliente, podendo ser espatulado, multilayer, uretano, poliuretano, epóxi, autonivelante, cimentício, argamassado com ou sem junta de dilatação; pinturas, restauração de pisos etc.
+            '
+        ];
+    ?>
+
+    <div class="container" style="padding: 40px 2px;">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12" >
+                <div class="wow bounceInUp" data-wow-delay="0.2s">
+                    <div id="owl-works" class="owl-carousel">
+                        <?php                        
+                            define("DIR_FOTOS","./includes/img/galery/pic"); 
+                            $titu = '';
+                        
+                            for ($i=1; $i < 9; $i++) { 
+                            echo'<div class="item" style="padding: 2px;">
+                                    <a href="'.DIR_FOTOS.$i.'.jpg" title="This is an image title" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/1@2x.jpg">
+                                        <div style="background-image: url('.DIR_FOTOS.$i.'.jpg); 
+                                        background-size:cover; 
+                                        height: 280px; 
+                                        width: 100%;
+                                        padding: 20px;"></div>
+                                    </a>
+                            </div>';
+                            echo'<div style="padding: 2px 20px"><p style="padding: 0px 8px;">'.$testo[$i].'</p></div>';
+                        }?>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </div>
+</section>
 <div class="block">
 	<div class="container" id="t2">
     	<a href="#" class="botao_cta_blue">Ver mais imagens</a>
@@ -60,16 +117,43 @@
         
     </div>
 </div>
-<div class="blue">
+<div class="blue cta1">
     <div class="container">
-        <h3>Receba nossas promoções a atualizações por e-mail Basta inserir abaixo.</h3>
-        <form action="" method="post" enctype="" class="cta_form navbar-form ">
-            <center>
+        <div>
+            <h4>Receba nossas promoções e atualizações por e-mail<br>Basta inserir abaixo.</h4>
+            <form class="form-inline">
                 <div class="form-group">
-                    <input type="text" class="form-control cta" placeholder="e-mail">
+                    <label class="sr-only">Email</label>
+                    <p class="form-control-static mail"></p>
+                </div>
+                <div class="form-group">
+                    <label for="inputText2" class="sr-only">E-mail</label>
+                    <input type="text" class="form-control" id="inputText2" placeholder="E-mail">
                 </div>
                 <button type="submit" class="btn btn-default">Confirmar</button>
-            </center>
-        </form>
+            </form>
+        </div>
     </div>
 </div>
+<script src="./includes/js/2018/plugins/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
+<script src="./includes/js/2018/owl.carousel.min.js"></script>
+<script src="./includes/js/2018/nivo-lightbox.min.js"></script>
+<script src="./includes/js/2018/jquery.maskedinput.js"></script>
+
+<script>
+    var owl = $('.owl-carousel');
+    owl.owlCarousel({
+        items:2,
+        loop:true,
+        margin:10,
+        autoplay:true,
+        autoplayTimeout:500,
+        autoplayHoverPause:true
+    });
+    $('.play').on('click',function(){
+        owl.trigger('play.owl.autoplay',[500])
+    })
+    $('.stop').on('click',function(){
+        owl.trigger('stop.owl.autoplay')
+    })
+</script>

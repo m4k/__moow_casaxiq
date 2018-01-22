@@ -8,7 +8,7 @@
 		<noscript><link rel="stylesheet" type="text/css" href="./view/content_galery/css/noJS.css"/></noscript>
     </head>
     <body>
-        <div class="container">
+        <div class="gallery_ok container">
 		
 			
 			
@@ -31,7 +31,7 @@
 					<ul class="gamma-gallery">
 						<?php for ($i=1; $i < 16 ; $i++) { 
 							echo'<li>
-								<div data-alt="img03" data-description="<h3>'.$titu.$i.'</h3>" data-max-width="1800" data-max-height="1350">
+								<div data-alt="'.$titu.$i.'" data-description="<h3>'.$titu.$i.'</h3>" data-max-width="1800" data-max-height="1350">
 									<div data-src="'.DIR_FOTOS.$i.'.jpg" data-min-width="1300"></div>
 									<div data-src="'.DIR_FOTOS.$i.'.jpg" data-min-width="1000"></div>
 									<div data-src="'.DIR_FOTOS.$i.'.jpg" data-min-width="700"></div>
@@ -53,6 +53,24 @@
 
 				</div>
 
+			</div>
+		</div>
+		<div class="blue cta1">
+			<div class="container">
+				<div>
+					<h4>Receba nossas promoções e atualizações por e-mail<br>Basta inserir abaixo.</h4>
+					<form class="form-inline">
+						<div class="form-group">
+							<label class="sr-only">Email</label>
+							<p class="form-control-static mail"></p>
+						</div>
+						<div class="form-group">
+							<label for="inputText2" class="sr-only">E-mail</label>
+							<input type="text" class="form-control" id="inputText2" placeholder="E-mail">
+						</div>
+						<button type="submit" class="btn btn-default">Confirmar</button>
+					</form>
+				</div>
 			</div>
 		</div>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
