@@ -1,18 +1,20 @@
-<div class="back1_x">
-    <div class="container">
-        <h2>Parceiros <b style="color:#485DA0!important;">da</b></h2>
-        <center>
-            <img src="./includes/img/<?php echo LOGO;?>" alt="" width="100%" style="max-width: 400px!important; padding: 20px 2px 5px 2px;">
-        <center>
+<div class="back1_x back1_parceiros">
+    <div class="pelicula2">
+        <div class="container">
+            <h2>Parceiros <b style="color:#485DA0!important;">da</b></h2>
+            <center>
+                <img src="./includes/img/<?php echo LOGO;?>" alt="" width="100%" style="max-width: 400px!important; padding: 20px 2px 5px 2px;">
+            <center>
+        </div>
     </div>
 </div>
-<section id="facilities" class="home-section paddingbot-60">
+<section id="facilities" class="home-section paddingbot-60 parceirosBlk">
 		<div class="container marginbot-50">
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2">
 					<div class="wow fadeInDown" data-wow-delay="0.1s">
 					<div class="section-heading text-center">
-					<h2 class="h-bold">As marcas em <?php echo date('Y');?></h2>
+					<h2 class="h-bold">As marcas em <b><?php echo date('Y');?></b></h2>
 					</div>
 					</div>
 					<div class="divider-short"></div>

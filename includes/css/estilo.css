@@ -343,9 +343,23 @@ h1,h2,h3,h4,h5,h6 {
     #footer .redes-sociais p{ margin-left: 0!important;}
     #footer .redes-sociais .social_net ul{ margin: 0;padding: 0; }
     #footer .redes-sociais .social_net{ text-align: center; }
+    .back1_parceiros{
+        padding-bottom: 42px;
+        background-image: url(../../includes/img/p1/Images_Type_Floor_PISOSDECIMENTOQUEIMADO.jpg);
+    }
+    .back1_parceiros h2{color: #fff!important;}
+    .pelicula2{width: 100%; background:rgba(0,0,0,0.4);}
+    .back1_x h4{text-align: center!important;}
+    .back1_x h2{text-shadow: none!important;color: #000;}
+    .back1_x a{ text-shadow: none!important;color: #fff!important;background: #222;padding: 18px 20px;text-transform: uppercase;font-weight: 500;letter-spacing: .9px;border-radius:5px; }
+    .back1_x {padding: 72px 2px 40px 2px;}
+    .back1_x p{text-shadow: none; color: #000;}
 }    
 @media screen and (min-width:769px) and (max-width:990px){ol li{padding:0px 10px;}
     #menu{text-align:left;border-bottom:1px solid #999;box-shadow:1px 1px 2px #999;padding:20px 0;}
+    .back1_x h4{text-align: center!important;}
+    .back1_x h2{text-shadow: none!important;color: #000!important;}
+    .back1_x a{ text-shadow: none!important;color: #fff!important;background: #222;padding: 18px 20px;text-transform: uppercase;font-weight: 500;letter-spacing: .9px;border-radius:5px; }
 }
 @media screen and (min-width:991px){ol li{padding:0px 10px;}
     #menu{text-align:left;border-bottom:1px solid #999;box-shadow:1px 1px 2px #999;padding:20px 0 2px 0;position:fixed;left:0;right:0;z-index:20;background:#fff;}
@@ -355,6 +369,9 @@ h1,h2,h3,h4,h5,h6 {
         position: relative;
     }
     .back1 h2{ font-size: 36px!important; }
+}
+.parceirosBlk{
+    background: #f1f1f1;
 }
 /*Carrrosel*/
 /*reset*/
