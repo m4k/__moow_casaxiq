@@ -95,7 +95,7 @@
         ?>  
 		<div class="col-md-8" id="map" style="height:600px; padding: 20px 0;">
 			<iframe width="100%" height="100%" frameborder="0" style="border:0"
-src="https://www.google.com/maps/embed/v1/place?q=Av.%20Ayrton%20Senna%20da%20Silva%2C%20200%20-%20301%20-%20Gleba%20Fazenda%20Palhano%2C%20Londrina%20-%20PR&key=AIzaSyCAoFi4CjDnvfQhS9LJfBt-htTJwkZuVm8" allowfullscreen></iframe>
+src="https://www.google.com/maps/embed/v1/place?q=Rua%20Marang%C3%A1%2C%201.068%20-%20Loja%20Pra%C3%A7a%20Seca%20-%20Jacarepagu%C3%A1%20Rio%20de%20Janeiro%20-%20RJ&key=AIzaSyCAoFi4CjDnvfQhS9LJfBt-htTJwkZuVm8" allowfullscreen></iframe>
 		</div>
 	</div>
 </div>

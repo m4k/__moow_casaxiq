@@ -29,12 +29,12 @@
 <meta name="theme-color" content="#ffffff">
 
 <?php /*For Share | Image Social Media*/ ?>
-<meta property="og:image" content="https://<?php echo $url_site[2]; ?>/includes/img/share/<?php echo $imageShare; ?>.jpg"/>
-<meta property="og:url" content="https://<?php echo $url_site[2]; ?>"/>
+<meta property="og:image" content="http://<?php echo $url_site[2]; ?>/includes/img/share/<?php echo $imageShare; ?>.jpg"/>
+<meta property="og:url" content="http://<?php echo $url_site[2]; ?>"/>
 <meta property="og:site_name" content="<?php echo $tituloPage; ?>"/>
 <meta property="og:description" content="<?php echo $decription; ?>"/>
 <meta name="twitter:title" content="<?php echo $tituloPage; ?>"/>
-<meta name="twitter:image" content="https://<?php echo $url_site[2]; ?>/includes/img/share/<?php echo $imageShare; ?>.jpg"/>
+<meta name="twitter:image" content="http://<?php echo $url_site[2]; ?>/includes/img/share/<?php echo $imageShare; ?>.jpg"/>
 <meta name="twitter:description" content="<?php echo $decription; ?>"/>
-<meta name="twitter:url" content="https://<?php echo $url_site[2]; ?>"/>
+<meta name="twitter:url" content="http://<?php echo $url_site[2]; ?>"/>
 <meta name="twitter:card" content="summary_large_image"/>

@@ -33,7 +33,7 @@
   if (($_SERVER['REMOTE_ADDR'] == '127.0.0.1') or ($_SERVER['REMOTE_ADDR'] == '::1')) {
     $base = './';
   }else{    
-    $base = 'http://casaxiq.com.br/';
+    $base = 'http://casaxiq.com.br';
   }
   define("URL_BASE", $base);
   define("DIR_HEADER","./includes/header/");

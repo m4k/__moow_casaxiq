@@ -15,6 +15,11 @@
     <div class="container">
         <div>
             <h4 style="text-align: center;">(21) 3172-0700, de seg. à sex, das 09:00 às 18:00</h4>
+            <p style="text-align:center;font-size: 18px;padding: 20px 2px;">Outros contatos <br><b>(21) 3017-1419</b> ou <b>Celular (21) 99006-1001</b><br>
+            e-mail: comercial@casaxiq.com.br</p>
+            <p style="text-align:center;">Rua Marangá, 1.068 - Loja
+Praça Seca - Jacarepaguá
+Rio de Janeiro - RJ</p>
         </div>
     </div>
 </div>
