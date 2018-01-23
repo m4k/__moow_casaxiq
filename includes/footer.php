@@ -5,18 +5,18 @@
         </div>
         <div class="col-sm-12 col-md-4 links">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-xs-6 col-md-6">
                     <ul>
                         <li><a href="<?php echo URL_BASE; ?>" class="home">Início</a></li>
                         <li><a href="<?php echo URL_BASE; ?>/curso-triplo-x.php">Curso <b>Triplo X</b></a></li>
                         <li><a href="<?php echo URL_BASE; ?>/galeria.php">Galeria de fotos</a></li>
                     </ul>
                 </div>
-                <div class="col-md-6">
-                <ul>
-                <li><a href="<?php echo URL_BASE; ?>/parceiros.php">Parceiros</a></li>
-                <li><a href="<?php echo URL_BASE; ?>/contato.php">Contatos</a></li>
-            </ul>
+                <div class="col-xs-6 col-md-6">
+                    <ul>
+                        <li><a href="<?php echo URL_BASE; ?>/parceiros.php">Parceiros</a></li>
+                        <li><a href="<?php echo URL_BASE; ?>/contato.php">Contatos</a></li>
+                    </ul>
                 </div>
             </div>
         </div>

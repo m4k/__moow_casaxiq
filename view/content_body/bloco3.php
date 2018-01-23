@@ -5,7 +5,7 @@
             <p>Conheça o curso que irá mudar a sua vida, assim como mudou a minha.</p>
         </div>
         <div class="col-md-5">
-            <a href="#">Quero conhecer</a>
+            <a href="./curso-triplo-x.php">Quero conhecer</a>
         </div>
     </div>
 </div>
@@ -14,7 +14,7 @@
         <div class="container" id="t0">
             <h2>ONDE PODE SER APLICADO?</h2>
             <center><div class="dash"></div></center>
-            <p>
+            <p id="porcelanato">
             O piso de resina autonivelante é indicado para áreas onde se deseja um acabamento perfeitamente plano, com alto nível de qualidade e resistência. Por não possuir rejunte, o porcelanato líquido confere maior uniformidade ao ambiente, e pode ser aplicado direto no contra-piso, ardósias, pisos cerâmicos, porcelanatos etc, e SEM QUEBRA QUEBRA.
             </p>
         </div>
@@ -75,7 +75,7 @@
                 <div class="wow bounceInUp" data-wow-delay="0.2s">
                     <div id="owl-works" class="owl-carousel">
                         <?php                        
-                            define("DIR_FOTOS","./includes/img/galery/pic"); 
+                            define("DIR_FOTOS","./includes/img/home/p"); 
                             $titu = '';
                         
                             for ($i=1; $i < 9; $i++) { 
@@ -87,8 +87,8 @@
                                         width: 100%;
                                         padding: 20px;"></div>
                                     </a>
+                                    <div style="padding: 2px 8px;"><p style="padding: 2px 8px;">'.$testo[$i].'</p></div>
                             </div>';
-                            echo'<div style="padding: 2px 20px"><p style="padding: 0px 8px;">'.$testo[$i].'</p></div>';
                         }?>
                     </div>
                 </div>
@@ -98,7 +98,7 @@
 </section>
 <div class="block">
 	<div class="container" id="t2">
-    	<a href="#" class="botao_cta_blue">Ver mais imagens</a>
+    	<a href="./galeria.php" class="botao_cta_blue">Ver mais imagens</a>
     </div>
 </div>
 <div class="block">

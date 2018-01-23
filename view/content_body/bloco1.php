@@ -5,11 +5,11 @@
             <p>Conheça os produtos e as vantagens oferecidas pela CasaXiq aliados a grandes parceiros como a Atual Tintas e a From Tec, que darão uma nova vida ao seu ambiente.</p>
         </div>
         <div class="col-md-5">
-            <a href="#">Faça seu orçamento</a>
+            <a href="./contato.php">Faça seu orçamento</a>
         </div>
     </div>
 </div>
-<div class="block">
+<div class="block" >
     <div class="container o-que-eh">
         <h2>VOCÊ SABE O QUE É PORCELANATO LÍQUIDO?</h2>
         <center><div class="dash"></div></center>

@@ -161,7 +161,7 @@ h1,h2,h3,h4,h5,h6 {
 
 /*curso X*/
 .back1_g{
-    background-image: url('../../includes/img/galery/pic6.jpg');
+    background-image: url('../../includes/img/galery/gallery7.jpg');
     background-attachment: fixed;
     background-position: center bottom;
     /**/
@@ -302,8 +302,48 @@ h1,h2,h3,h4,h5,h6 {
 .navbar-default{background-color:transparent!important;border-color:transparent!important;}
 @media screen and (max-width:768px){
     #menu .navbar-brand img{ width: 110px!important;margin-top: 10px; }
-    .back1{ padding: 20px 2px 40px 2px!important; }
-}
+    .back1{ padding: 60px 2px 40px 2px!important; }
+    .back1 a{ margin-top: 20px; }
+    .back1 p{ padding: 5px 2px!important;text-transform: lowercase!important; }
+    .back1 h2{ padding: 40px 2px 10px 2px; }
+    .back1 h3{ padding: 10px 2px!important;font-size: 20px!important;font-weight: bold!important; }    
+    #menu{ position: fixed; top: 0px; left: 0px; right: 0px;z-index: 10!important;background: #f1f1f1;}
+    .o-que-eh{ padding: 2px 25px; }
+    .o-que-eh h2{ padding: 40px 2px 10px 2px;font-size: 20px!important;line-height: 28px; }
+    .o-que-eh p{
+        text-align: justify;
+        padding: 2px 15px; 
+    }
+    .bloco3 #t0{
+        padding: 2px 10px;
+    }
+    .bloco3 #t0 h3{ font-size: 18px!important; }
+    .bloco3 #t0 p{
+        text-align: justify;
+        padding: 2px 20px;
+    }
+    .skils{ padding: 2px 2px 40px 2px!important; }
+    .skils img{ padding: 40px 2px 4px 2px!important; }
+    .skils h4{ font-size: 20px!important; }
+    .back2{ padding: 40px 2px!important; }
+    .back2 center img{ display: none; }
+    .marginbot-50 p{
+        padding: 2px 18px;
+        text-align: justify;
+    }
+    .bloco3 #t0 h2{ padding: 40px 2px 10px 2px;font-size: 20px!important;line-height: 28px; }
+    .text-center p:nth-of-type(1){ text-align: center!important; }
+    .pay ul{ padding: 0; margin-left: 10px!important; }
+    .pay ul li{ padding: 0; width: 40%; }
+    .pay ul li img{ width: 100%; }
+    .form-control-static.mail{ display: none; }
+    .blue.cta1 h4{ font-size: 20px!important;line-height: 26px; }
+    .links{ padding: 40px 10px!important; }
+    #footer .links{ padding: 40px 2px; }
+    #footer .redes-sociais p{ margin-left: 0!important;}
+    #footer .redes-sociais .social_net ul{ margin: 0;padding: 0; }
+    #footer .redes-sociais .social_net{ text-align: center; }
+}    
 @media screen and (min-width:769px) and (max-width:990px){ol li{padding:0px 10px;}
     #menu{text-align:left;border-bottom:1px solid #999;box-shadow:1px 1px 2px #999;padding:20px 0;}
 }
@@ -314,6 +354,7 @@ h1,h2,h3,h4,h5,h6 {
         width: 100%;
         position: relative;
     }
+    .back1 h2{ font-size: 36px!important; }
 }
 /*Carrrosel*/
 /*reset*/

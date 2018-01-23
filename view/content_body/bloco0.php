@@ -5,7 +5,7 @@
 e os benefícios são ainda melhores</h3>
         <p>CONHEÇA O PISO QUE É TENDÊNCIA NO PAÍS TODO</p>
         <div class="cta0">
-            <a href="#">CONHEÇA AGORA</a>
+            <a href="#porcelanato">CONHEÇA AGORA</a>
         </div>
     </div>
 </div>

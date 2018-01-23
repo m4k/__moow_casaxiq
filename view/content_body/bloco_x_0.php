@@ -6,14 +6,14 @@
             <img src="./includes/img/p3/curso_background.png" alt="" width="100%">
         <center>
         <p>Uma estrutura imcomparável, única no Brasil</p>
-        <a href="#">Quero saber +</a>
+        <a href="#contato-triplo-x">Quero saber +</a>
     </div>
 </div>
 <div class="red_x cta_x">
     <div class="container">
         <div>
             <h4>Quero que o <b>TRIPLO X</b> me contacte quando <br>forem abertas as mátricalas do próximo curso</h4>
-            <a href="#">Quero saber +</a>
+            <a href="#contato-triplo-x">Quero saber +</a>
         </div>
     </div>
 </div>
@@ -39,10 +39,10 @@
                     <div id="owl-works" class="owl-carousel">
                         
                         <?php 
-                            define("DIR_FOTOS","./includes/img/galery/pic"); 
+                            define("DIR_FOTOS","./includes/img/curso/curso"); 
                             $titu = '';
                         ?>
-                        <?php for ($i=1; $i < 16 ; $i++) { 
+                        <?php for ($i=1; $i < 114 ; $i++) { 
                             echo'<div class="item" style="padding: 2px;">
                                 <a href="'.DIR_FOTOS.$i.'.jpg" title="This is an image title" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/1@2x.jpg">
                                     <div style="background-image: url('.DIR_FOTOS.$i.'.jpg); 
@@ -68,7 +68,7 @@ src="https://www.google.com/maps/embed/v1/place?q=Av.%20Ayrton%20Senna%20da%20Si
 		</div>  
     </div>
 </div>
-<div class="red_x cta_x">
+<div class="red_x cta_x" id="contato-triplo-x">
     <div class="container">
         <div>
             <h4>Receba nossas promoções e atualizações por e-mail<br>Basta inserir abaixo.</h4>

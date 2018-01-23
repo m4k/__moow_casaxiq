@@ -27,14 +27,16 @@
                     <div id="owl-works" class="owl-carousel">
                         
                         <?php 
-                            define("DIR_FOTOS","./includes/img/galery/pic"); 
+                            define("DIR_FOTOS","./includes/img/marcas/logo"); 
                             $titu = '';
                         ?>
                         <?php for ($i=1; $i < 16 ; $i++) { 
                             echo'<div class="item" style="padding: 2px;">
-                                <a href="'.DIR_FOTOS.$i.'.jpg" title="This is an image title" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/1@2x.jpg">
-                                    <div style="background-image: url('.DIR_FOTOS.$i.'.jpg); 
-                                    background-size:cover; 
+                                <a href="'.DIR_FOTOS.$i.'.png" title="Logo" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/1@2x.jpg">
+                                    <div style="background-image: url('.DIR_FOTOS.$i.'.png); 
+                                    background-position: center;
+                                    background-size:80%;
+                                    background-repeat:no-repeat; 
                                     height: 180px; 
                                     width: 100%;
                                     padding: 20px;"></div>

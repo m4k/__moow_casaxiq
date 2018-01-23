@@ -6,12 +6,12 @@
     e os benefícios são ainda melhores</h3>
             <p>CONHEÇA O PISO QUE É TENDÊNCIA NO PAÍS TODO</p>
             <div class="cta0">
-                <a href="#">CONHEÇA AGORA</a>
+                <a href="#email">ENTRAR EM CONTATO</a>
             </div>
         </div>
     </div>
 </div>
-<div class="blue cta1">
+<div class="blue cta1" id="email">
     <div class="container">
         <div>
             <h4 style="text-align: center;">(21) 3172-0700, de seg. à sex, das 09:00 às 18:00</h4>
