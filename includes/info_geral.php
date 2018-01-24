@@ -45,22 +45,24 @@
     </script>
 
 <div style="background-color: rgba(0,0,0,.1);">
-	<div class="container" id="contato_page">
+	<div class="container" id="contato_page" style="padding: 40px 0;">
 		<div class="col-md-4" style="padding: 20px 0;">
-			<div style="padding: 45px 15px; background-color: #f1f1f1;">
+			<div style="padding: 25px 15px; background-color: #f1f1f1;">
 		        
-                <h4 style="font-family: 'Nixie One', cursive; font-weight: 600;">Entre em contato comigo!</h4>
-		        <i class="fa fa-window-minimize" style="color: #FFC60B; margin-bottom: 10px;"></i>
+                <!--h4 style="font-family: 'Nixie One', cursive; font-weight: 600;">Entre em contato comigo!</h4-->
+                <h4><b>CASA</b> XIQ</h4>
+                <i class="fa fa-window-minimize" style="color: #FF0000; margin-bottom: 10px;"></i>
 		        
 		        <form class="" action="" method="post" class="form-control" id="form_contato" action="" onsubmit="gravarContato(); return false;">
+                    <input type="hidden" name="tipo_form" value="<?php if(isset($_GET['curso']) and $_GET['curso'] == 'mail'){ echo "triplox"; }else{ echo "site"; } ?>">
                     <span style="color: #3d3d3d">nome</span>
                     <input type="text" name="nome" placeholder="Nome" class="form-control">
                     <span style="color: #3d3d3d">e-mail</span>
                     <input type="text" name="email" placeholder="E-mail" class="form-control">
                     <span style="color: #3d3d3d">telefone</span>
                     <input type="text" name="telefone" placeholder="Telefone" class="form-control telefone">
-                    <textarea name="msg" rows="7" cols="80" class="form-control" placeholder="Escreva sua mensagem"></textarea><br>
-                    <button type="submit" name="comecar" class="btn btn-default" style="text-transform: uppercase; letter-spacing: 1.2; padding: 12px; background: #444!important; color: #FFF; box-shadow: 2px 2px 15px #666; border: 0;">enviar <i class="fa fa-paper-plane-o"></i></button>
+                    <textarea id="texto" name="msg" rows="7" cols="80" class="form-control" placeholder="Escreva sua mensagem"></textarea><br>
+                    <button type="submit" name="comecar" class="btn btn-default" style="text-transform: uppercase; letter-spacing: 1.2; padding: 12px; background: #444!important; color: #FFF; box-shadow: 2px 2px 15px #666; border: 0;display:inline-block; width:100%;">enviar mensagem <i class="fa fa-paper-plane-o"></i></button>
                     <!--glyphicon glyphicon-ok-->
 		        </form>
 		        <div class="load2" style="display: none;" align="center">
@@ -70,7 +72,7 @@
                     <img src="../images/load.gif" alt="Loading">
 		        </div>
 		        <div class="success-message2 w-form-done" align="center">
-                    <img src="../images/luis2.png" alt="Luis Outi Ok"><br><br>
+                    <img src="./includes/img/p1/fabiano.png" alt="Casa Xiq" style="max-width: 260px;"><br><br>
                     <p>Obrigado por fazer parte do meu grupo.</p><br>
                     <i class="fa fa-check" aria-hidden="true" style="color: #2DCC70; font-size:26px;"></i>
 		        </div>
@@ -100,20 +102,23 @@ src="https://www.google.com/maps/embed/v1/place?q=Rua%20Marang%C3%A1%2C%201.068%
     	margin: 15px;
     }
     #contato_page input[type='text']{
-    	padding: 20px;
+    	/*padding: 20px;*/
     	margin-bottom: 5px;
         color: #444;
+    }
+    #texto{
+        margin-top:26px;;
     }
 
 </style>
 <script>
-    var $doc = $('html, body');
+    /*var $doc = $('html, body');
     $('a').click(function() {
         $doc.animate({
             scrollTop: $($.attr(this, 'href')).offset().top
         }, 500);
         return false;
-    });
+    });*/
     $(document).ready(function(){
     
     $("input.dinheiro").maskMoney({
