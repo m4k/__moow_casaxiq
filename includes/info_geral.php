@@ -9,40 +9,35 @@
 
             $.ajax({
                 method: "post",
-                url: "controller/gravar_contato.php",
-                beforeSend: function(){
+                url: "./new_mail/mail.php",
+                /**beforeSend: function(){
                      $('#form_contato').hide();
                     $('.load2').show();
-                },
+                },*/
                 data: $("#form_contato").serialize(),
                 success: function(data) {
                     if (data == '1') {
-                        $('.load2').hide();
+                        //$('.load2').hide();
                         $('#form_contato').hide();
                         $('.error-message2').hide();
                         $('.success-message2').show();
-                    }
-                    if (data == '0') {
-                        $('.load2').hide();
+                        console.log('Ok ao enviar o e-mail');
+                    }else{
+                        //$('.load2').hide();
                         $('#form_contato').show();
                         $('.error-send2').addClass(animacaotipo).one(animacaofim, function(){
                             $(this).removeClass(animacaotipo);
                         }).show();
+                        console.log('Erro ao enviar e-mail');
                     }
-                    if (data == '2') {
-                        $('.load2').hide();
-                        $('#form_contato').show();
-                        $('.error-message2').addClass(animacaotipo).one(animacaofim, function(){
-                            $(this).removeClass(animacaotipo);
-                        }).show();
-                    }
+                    
                 },
                 error: function(data) {
-                    $('.load2').hide();
                     $('#form_contato').hide();
                     $('.error-connect2').addClass(animacaotipo).one(animacaofim, function(){
                         $(this).removeClass(animacaotipo);
                     }).show();
+                    console.log('Erro ao enviar e-mail');
                 }
 
             });

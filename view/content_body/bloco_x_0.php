@@ -6,7 +6,7 @@
             <img src="./includes/img/p3/curso_background.png" alt="" width="100%">
         <center>
         <p>Uma estrutura imcomparável, única no Brasil</p>
-        <a href="#contato-triplo-x">Quero saber +</a>
+        <a href="/contato.php?curso=mail">Quero saber +</a>
     </div>
 </div>
 <div class="red_x cta_x">
