@@ -127,7 +127,7 @@ h1,h2,h3,h4,h5,h6 {
 .form-inline{ padding: 30px 2px 10px 2px; }
 @media screen and (min-width:991px){
     .back1_x{
-        padding: 140px 5px 60px 5px;
+        padding: 40px 0 0 0;
     }
     .back1_x h4{
         text-align: center;
@@ -148,9 +148,20 @@ h1,h2,h3,h4,h5,h6 {
     .back1_x a{ text-shadow: none!important;color: #fff!important;background: #222;padding: 18px 20px;text-transform: uppercase;font-weight: 500;letter-spacing: .9px;border-radius:5px; }
 }
 @media screen and (max-width:990px){
-    .back1_x{
+    /*.back1_x{
         padding: 30px 5px;
+    }*/
+    .back1_x{ background-image: url(../../includes/img/triplo_x/Background.jpg);
+        background-position: left 35% top 45px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
     }
+    .back1_x #curso_top{ background: rgba(255,255,255,0.6);padding: 30px 0 50px 0;}
+    .back1_x img{ opacity: 0.5!important;
+        filter: alpha(opacity=50)!important;
+        filter:contrast(200%);
+    } 
 }
 .back1_x h2{color: #f1f1f1;text-align: center;font-weight: 600;letter-spacing: 1.4px;text-shadow: 2px 2px 5px #444;}
 .back1_x h3{color: #f1f1f1;text-align: center;font-weight: 400;letter-spacing: .4px;text-shadow: 2px 2px 5px #444;}
@@ -352,8 +363,10 @@ h1,h2,h3,h4,h5,h6 {
     .back1_x h4{text-align: center!important;}
     .back1_x h2{text-shadow: none!important;color: #000;}
     .back1_x a{ text-shadow: none!important;color: #fff!important;background: #222;padding: 18px 20px;text-transform: uppercase;font-weight: 500;letter-spacing: .9px;border-radius:5px; }
-    .back1_x {padding: 72px 2px 40px 2px;}
+    .back1_x {padding: 72px 0 0 0;}
     .back1_x p{text-shadow: none; color: #000;}
+    .back1_x h4 b{ color: #DA261D !important; }
+    .back1_x h2 b{ color: #DA261D !important;font-weight: 900; }
 }    
 @media screen and (min-width:769px) and (max-width:990px){ol li{padding:0px 10px;}
     #menu{text-align:left;border-bottom:1px solid #999;box-shadow:1px 1px 2px #999;padding:20px 0;}
@@ -369,6 +382,17 @@ h1,h2,h3,h4,h5,h6 {
         position: relative;
     }
     .back1 h2{ font-size: 36px!important; }
+    .back1_x{ background-image: url(../../includes/img/triplo_x/Background.jpg);
+        background-position: left top 35px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .back1_x #curso_top{ background: rgba(255,255,255,0.6);padding: 100px 0 60px 0; }
+    .back1_x img{ opacity: 0.5!important;
+        filter: alpha(opacity=50)!important;
+        filter:contrast(200%);
+    }   
 }
 .parceirosBlk{
     background: #f1f1f1;

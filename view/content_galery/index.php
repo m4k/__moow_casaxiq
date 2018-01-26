@@ -23,24 +23,25 @@
 					
 				</header>
 				<?php 
-					define("DIR_FOTOS","./includes/img/galery/gallery"); 
-					$titu = '';
+					define("DIR_FOTOS","./includes/img/galery/Untitled-3-"); 
+					$titu = 'Foto ';
 				?>
 				<div class="gamma-container gamma-loading" id="gamma-container">
 
 					<ul class="gamma-gallery">
 						<?php for ($i=1; $i < 29 ; $i++) { 
+							$img_x = str_pad($i, 2, "0", STR_PAD_LEFT);
 							echo'<li>
 								<div data-alt="'.$titu.$i.'" data-description="<h3>'.$titu.$i.'</h3>" data-max-width="1800" data-max-height="1350">
-									<div data-src="'.DIR_FOTOS.$i.'.jpg" data-min-width="1300"></div>
-									<div data-src="'.DIR_FOTOS.$i.'.jpg" data-min-width="1000"></div>
-									<div data-src="'.DIR_FOTOS.$i.'.jpg" data-min-width="700"></div>
-									<div data-src="'.DIR_FOTOS.$i.'.jpg" data-min-width="300"></div>
-									<div data-src="'.DIR_FOTOS.$i.'.jpg" data-min-width="200"></div>
-									<div data-src="'.DIR_FOTOS.$i.'.jpg" data-min-width="140"></div>
-									<div data-src="'.DIR_FOTOS.$i.'.jpg"></div>
+									<div data-src="'.DIR_FOTOS.$img_x.'.jpg" data-min-width="1300"></div>
+									<div data-src="'.DIR_FOTOS.$img_x.'.jpg" data-min-width="1000"></div>
+									<div data-src="'.DIR_FOTOS.$img_x.'.jpg" data-min-width="700"></div>
+									<div data-src="'.DIR_FOTOS.$img_x.'.jpg" data-min-width="300"></div>
+									<div data-src="'.DIR_FOTOS.$img_x.'.jpg" data-min-width="200"></div>
+									<div data-src="'.DIR_FOTOS.$img_x.'.jpg" data-min-width="140"></div>
+									<div data-src="'.DIR_FOTOS.$img_x.'.jpg"></div>
 									<noscript>
-										<img src="'.DIR_FOTOS.$i.'.jpg" alt="Galeria"/>
+										<img src="'.DIR_FOTOS.$img_x.'.jpg" alt="Galeria"/>
 									</noscript>
 								</div>
 							</li>';

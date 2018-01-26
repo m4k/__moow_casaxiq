@@ -1,5 +1,6 @@
 <div class="back1_x">
-    <div class="container">
+    <div id="curso_top">
+    <div class="container-fluid">
         <h4><b>curso</b> profissionalizante</h4>
         <h2>triplo <b>X</b></h2>
         <center>
@@ -7,6 +8,7 @@
         <center>
         <p>Uma estrutura imcomparável, única no Brasil</p>
         <a href="/contato.php?curso=mail">Quero saber +</a>
+    </div>
     </div>
 </div>
 <div class="red_x cta_x">
@@ -39,12 +41,12 @@
                     <div id="owl-works" class="owl-carousel">
                         
                         <?php 
-                            define("DIR_FOTOS","./includes/img/curso/curso"); 
+                            define("DIR_FOTOS","./includes/img/curso/Curso_Triplo_X-"); 
                             $titu = '';
                         ?>
-                        <?php for ($i=1; $i < 114 ; $i++) { 
+                        <?php for ($i=1; $i < 40; $i++) { 
                             echo'<div class="item" style="padding: 2px;">
-                                <a href="'.DIR_FOTOS.$i.'.jpg" title="This is an image title" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/1@2x.jpg">
+                                <a href="'.DIR_FOTOS.$i.'.jpg" title="Fotos do curso" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/1@2x.jpg" class="ok_img">
                                     <div style="background-image: url('.DIR_FOTOS.$i.'.jpg); 
                                     background-size:cover; 
                                     height: 180px; 
@@ -142,8 +144,8 @@ src="https://www.google.com/maps/embed/v1/place?q=Rua%20Marang%C3%A1%2C%201.068%
 </style>
 <script src="./includes/js/2018/plugins/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
 <script src="./includes/js/2018/owl.carousel.min.js"></script>
-<script src="./includes/js/2018/nivo-lightbox.min.js"></script>
-<script src="./includes/js/2018/jquery.maskedinput.js"></script>
+
+
 
 <script>
     var owl = $('.owl-carousel');
@@ -161,4 +163,15 @@ src="https://www.google.com/maps/embed/v1/place?q=Rua%20Marang%C3%A1%2C%201.068%
     $('.stop').on('click',function(){
         owl.trigger('stop.owl.autoplay')
     })
+</script>
+
+<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<link href="./includes/js/lightbox/nivo-lightbox.css" rel="stylesheet" type="text/css">
+<link href="./includes/js/lightbox/themes/default/default.css" rel="stylesheet" type="text/css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="./includes/js/lightbox/nivo-lightbox.js"></script>
+<script>
+$(document).ready(function(){
+    $('a.ok_img').nivoLightbox();
+});
 </script>

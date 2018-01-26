@@ -27,14 +27,34 @@
                 <div class="col-sm-12 col-md-12 col-lg-12" >
 					<div class="wow bounceInUp" data-wow-delay="0.2s">
                     <div id="owl-works" class="owl-carousel">
-                        
-                        <?php 
+                    
+                        <?php
+                            $testo = [
+                                '1' => ['1' => 'Atual Tintas', '2' => 'https://www.facebook.com/atualtinta/'],
+                                '2' => ['1' => 'Bosch', '2' => 'https://www.brasil.bosch.com.br/'],
+                                '3' => ['1' => 'Flextools', '2' => 'http://flextools.com.br/'],
+                                '4' => ['1' => 'Fromtech', '2' => 'https://fromtec.com.br/'],
+                                '5' => ['1' => 'Loucos por Drywall', '2' => 'https://www.youtube.com/channel/UCeWLkWgC0gixlh3qHJVtfog'],
+                                '6' => ['1' => 'Milenium', '2' => ''],
+                                '7' => ['1' => 'Pulo do gato na construção', '2' => 'https://www.youtube.com/channel/UCd_VnBxOthLizMBQprSVx_A'],
+                                '8' => ['1' => 'Studio Pedra', '2' => ''],
+                                '9' => ['1' => 'Vem com ozeias', '2' => 'https://www.youtube.com/channel/UCJD2JREs-WzlaJRNfWPHLrg'],
+                                '10' => ['1' => 'Vinil decor', '2' => 'http://www.vinildecor.com.br/']
+                            ];
+ 
                             define("DIR_FOTOS","./includes/img/marcas/logo"); 
                             $titu = '';
                         ?>
-                        <?php for ($i=1; $i < 16 ; $i++) { 
+                        <?php for ($i=1; $i < 11 ; $i++) { 
+                            if ($testo[$i][2] != ''){
+                                $page_open = 'target="_blank"';
+                                $url_parce = 'href="'.$testo[$i][2].'"';
+                            }else{
+                                $page_open = '';
+                                $url_parce = '';
+                            }
                             echo'<div class="item" style="padding: 2px;">
-                                <a href="'.DIR_FOTOS.$i.'.png" title="Logo" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/1@2x.jpg">
+                                <a '.$url_parce.' title="'.$testo[$i][1].'" '.$page_open.'>
                                     <div style="background-image: url('.DIR_FOTOS.$i.'.png); 
                                     background-position: center;
                                     background-size:80%;
@@ -132,7 +152,7 @@
 <script>
     var owl = $('.owl-carousel');
     owl.owlCarousel({
-        items:4,
+        items:5,
         loop:true,
         margin:10,
         autoplay:true,
